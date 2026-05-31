@@ -1,0 +1,1299 @@
+{
+  "version": 186,
+  "schemaVersion": 1,
+  "lastSavedAt": "2026-05-27T14:36:00.028Z",
+  "lastSavedBy": "EZE",
+  "config": {
+    "team": {
+      "EZE": {
+        "name": "Ezequiel",
+        "color": "#7C4DFF",
+        "initials": "EZ",
+        "calendarId": "5c9b59683520797871344f40e6a08b9052533bc3c408a9809a17ace499da11b5@group.calendar.google.com",
+        "email": ""
+      },
+      "GER": {
+        "name": "Germán",
+        "color": "#2196F3",
+        "initials": "GE",
+        "calendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com",
+        "email": ""
+      },
+      "AMBOS": {
+        "name": "Ambos",
+        "color": "#c05a00",
+        "initials": "AM",
+        "calendarId": "info@flaks.com.ar",
+        "email": ""
+      }
+    },
+    "agencyCalendarId": "info@flaks.com.ar",
+    "timeZone": "America/Argentina/Buenos_Aires",
+    "dataFolderId": "1sgTQvtP5rmnHysEHkWbR8bntwKzt-uof"
+  },
+  "clients": [
+    {
+      "id": "sc",
+      "name": "Sistema Continuo",
+      "emoji": "🖨️",
+      "color": "#e8f4fd",
+      "rubro": "Sublimación / DTF / DTF UV · Grupo 4 marcas",
+      "ticket": "$0",
+      "pct": "62%",
+      "contacto": "—",
+      "alert": "",
+      "services": [
+        {
+          "name": "Redes Sociales/Filmación/Estrategia",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 400000,
+          "startDate": "2026-05"
+        },
+        {
+          "name": "Meta ads/Leads/Vendedores",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 500000,
+          "startDate": "2026-05"
+        }
+      ],
+      "monthly": [
+        {
+          "id": "sc-m1778106221140",
+          "text": "HOTSALE: 10% CAMEOS EQUIPOS",
+          "notes": "Gancho: descuento.\nTodos los cameos en la web entran en el 10%. PORTADA video con hotsale\n\nLUNES",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-08T14:05:20.566Z",
+          "calendarEventId": "ga4isbq1ruvpvlked3mkngm0fc",
+          "scheduledAt": "2026-05-08T22:00:00.000Z",
+          "scheduledCalendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com"
+        },
+        {
+          "id": "sc-m1778106391515",
+          "text": "Mini portatil roja c/blanco",
+          "notes": "Envío gratis a todo el país. NO ES HOTSALE",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-27T13:00:18.822Z",
+          "calendarEventId": "iljegun15f03jg3ve5c0532q24",
+          "scheduledAt": "2026-05-07T12:00:00.000Z",
+          "scheduledCalendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com"
+        },
+        {
+          "id": "sc-m1778106520797",
+          "text": "HOTSALE: 20% CAMEO ACCESORIOS",
+          "notes": "GANCHO: Descuento\nportada de video que diga hotsale\n\nLUNES",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-08T15:49:14.750Z",
+          "calendarEventId": "dd8e53tqq7u5cpovv94kpi6e94",
+          "scheduledAt": "2026-05-08T22:00:00.000Z",
+          "scheduledCalendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com"
+        },
+        {
+          "id": "sc-m1778106787082",
+          "text": "HOTSALE: 4 EQUIPOS BLUE 15%",
+          "notes": "29X38 8EN1\n38X38 8EN1\nBandeja deslizable 12en1 (la que tiene taza)\nTazas MINI recta 80\n\nNuestras estampadoras blue al 15%\n\nMARTES",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-08T19:48:33.176Z",
+          "calendarEventId": "p5et0hm2lhdnku126esrea7kuc",
+          "scheduledAt": "2026-05-08T22:00:00.000Z",
+          "scheduledCalendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com"
+        },
+        {
+          "id": "sc-m1778106855772",
+          "text": "HOTSALE: Mordaza para canillera + canillera premium 15%",
+          "notes": "tenés una estampadora multifunción RED? sumá este accesorio que te permite vender un nuevo producto.\n\nJUEVES (SPEECH EXTENDIMOS)",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-09T02:47:05.569Z",
+          "calendarEventId": "akojue8jhrpk61m2a7a53mt558",
+          "scheduledAt": "2026-05-08T22:00:00.000Z",
+          "scheduledCalendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com"
+        },
+        {
+          "id": "sc-m1778106941355",
+          "text": "HOTSALE: Portacinta + cintas",
+          "notes": "de 5 y 10 mm marrón y la blanca de 10 mm TODO 20% DESCUENTOS.\n\nJUEVES SPECH EXTENDIMOS",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-08T23:53:39.591Z",
+          "calendarEventId": "r77mn4dp2e9h22b3ov2jjede2g",
+          "scheduledAt": "2026-05-08T22:00:00.000Z",
+          "scheduledCalendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com"
+        },
+        {
+          "id": "sc-m1778107065237",
+          "text": "HOTSALE: Tazas Recta MP60B 20%",
+          "notes": "VIERNES \n!UTLIMA OPORTUNIDAD HOT SALE!",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-08T19:48:50.667Z",
+          "calendarEventId": "notskd8bf1to4dueotvsj2ho5o",
+          "scheduledAt": "2026-05-08T22:00:00.000Z",
+          "scheduledCalendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com"
+        },
+        {
+          "id": "sc-m1778107111031",
+          "text": "HOTSALE 8 en 1 RED 20%",
+          "notes": "Estampadora 8 en 1 Plana 29x38 + 2 Platos + Gorro + 4 Tazas 20%\nMIERCOLES",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-09T02:47:03.095Z",
+          "calendarEventId": "ogj24rt11oaed75tknvp11f6j8",
+          "scheduledAt": "2026-05-08T21:00:00.000Z",
+          "scheduledCalendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com"
+        },
+        {
+          "id": "sc-m1778107839548",
+          "text": "ORGÁNICO: Estampadora de gorras mini",
+          "notes": "",
+          "owner": "EZE",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-09T02:47:28.767Z",
+          "calendarEventId": "6dscglafo8mth1ekt90qh6bg58",
+          "scheduledAt": "2026-05-09T13:00:00.000Z",
+          "scheduledCalendarId": "5c9b59683520797871344f40e6a08b9052533bc3c408a9809a17ace499da11b5@group.calendar.google.com"
+        },
+        {
+          "id": "sc-m1778178051066",
+          "text": "Idea carrusel",
+          "notes": "https://www.instagram.com/p/DXKPCAwkRoB/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-07T18:20:51.066Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "sc-m1778281879265",
+          "text": "Listado ofertas Miqueas",
+          "notes": "",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-09T21:53:18.979Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "sc-m1778452624437",
+          "text": "VIDEOS A GRUPO DE ESTADOS WPP",
+          "notes": "",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-11T00:08:31.746Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "sc-m1779127451910",
+          "text": "Video 1 Cintas y porta cintas",
+          "notes": "Cambiar audio y subir",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-18T20:45:35.545Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        }
+      ],
+      "quarterly": [
+        {
+          "id": "sc-q1778161879127",
+          "text": "Facturación Meta 15.000.000",
+          "notes": "Intentar llevar las conversiones a ese numero.",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-07T13:51:19.127Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "sc-q1778178034233",
+          "text": "Influencers - Afiliados",
+          "notes": "https://www.instagram.com/dussa.dtf/\nhttps://www.instagram.com/drop.extra/\nhttps://www.instagram.com/legionmenace/",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-07T18:20:34.233Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        }
+      ],
+      "fixedContent": [
+        {
+          "id": "fix-sc-1777739399166",
+          "type": "historia",
+          "title": "Historia de productos",
+          "frequency": "weekly",
+          "dayWeek": "TU",
+          "dayMonth": null,
+          "time": "08:00",
+          "owner": "GER",
+          "startDate": "2026-05-02",
+          "calendarEventId": "jrrhqsonoa2i7kjlih9sftjulg",
+          "calendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com",
+          "createdBy": "EZE",
+          "createdAt": "2026-05-02T16:29:59.166Z"
+        },
+        {
+          "id": "fix-sc-1777739436627",
+          "type": "historia",
+          "title": "Historia de productos",
+          "frequency": "weekly",
+          "dayWeek": "TH",
+          "dayMonth": null,
+          "time": "08:00",
+          "owner": "GER",
+          "startDate": "2026-05-02",
+          "calendarEventId": "mjp0geq3qv63gs7fl0qt9olk48",
+          "calendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com",
+          "createdBy": "EZE",
+          "createdAt": "2026-05-02T16:30:36.627Z"
+        },
+        {
+          "id": "fix-sc-1777744937425",
+          "type": "informe",
+          "title": "Meta Ads",
+          "frequency": "weekly",
+          "dayWeek": "FR",
+          "dayMonth": null,
+          "time": "08:30",
+          "owner": "EZE",
+          "startDate": "2026-05-02",
+          "calendarEventId": "51qghf9l9hp7s6hnk0o2dlae64",
+          "calendarId": "5c9b59683520797871344f40e6a08b9052533bc3c408a9809a17ace499da11b5@group.calendar.google.com",
+          "createdBy": "EZE",
+          "createdAt": "2026-05-02T18:02:17.425Z"
+        }
+      ]
+    },
+    {
+      "id": "sc-gran-formato",
+      "emoji": "🖨️",
+      "name": "SC Gran Formato",
+      "color": "#003e70",
+      "rubro": "GRÁFICA",
+      "contacto": "—",
+      "ticket": "$0",
+      "pct": "0%",
+      "alert": "",
+      "services": [
+        {
+          "name": "Redes sociales",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 100000,
+          "startDate": "2026-05"
+        },
+        {
+          "name": "Meta Ads",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 200000,
+          "startDate": "2026-05"
+        }
+      ],
+      "monthly": [
+        {
+          "id": "sc-gran-formato-m1778107357028",
+          "text": "HOTSALE: 60X80 BLUE 20%",
+          "notes": "",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-09T03:31:56.320Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "sc-gran-formato-m1778107505503",
+          "text": "HOTSALE: CINTAS BLUE Y CINTAS RED Automática 20%",
+          "notes": "",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-11T17:36:32.558Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "sc-gran-formato-m1778107522680",
+          "text": "HOTSALE: PLOTTER DTF A3 20%",
+          "notes": "",
+          "owner": "EZE",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-09T03:56:49.427Z",
+          "calendarEventId": "g6pog5fl1amu4jc48ngc9i3m60",
+          "scheduledAt": "2026-05-09T13:00:00.000Z",
+          "scheduledCalendarId": "5c9b59683520797871344f40e6a08b9052533bc3c408a9809a17ace499da11b5@group.calendar.google.com"
+        },
+        {
+          "id": "sc-gran-formato-m1778107580141",
+          "text": "HOTSALE: 1802 60C 25%",
+          "notes": "Sirve para textiles remeras deportivas de todo\nVER CUÁL ES",
+          "owner": "EZE",
+          "status": "done",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-08T21:58:29.848Z",
+          "calendarEventId": "1dbo10mhirds0uup17sm4gdhvo",
+          "scheduledAt": "2026-05-09T13:00:00.000Z",
+          "scheduledCalendarId": "5c9b59683520797871344f40e6a08b9052533bc3c408a9809a17ace499da11b5@group.calendar.google.com"
+        },
+        {
+          "id": "sc-gran-formato-m1779127524366",
+          "text": "Perfilado",
+          "notes": "Usar video que mandó gustavo del whatsapp\nPerfilando Plotter Senko 1301 con tintas Artanium",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-18T20:16:07.543Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "sc-gran-formato-m1779127547047",
+          "text": "Video Plotter 1802",
+          "notes": "Cambiar audio y subir",
+          "owner": "GER",
+          "status": "pending",
+          "changedBy": "GER",
+          "changedAt": "2026-05-19T21:14:55.328Z",
+          "calendarEventId": "cnsfh94ga4tuujicu3betg3sls",
+          "scheduledAt": "2026-05-27T13:00:00.000Z",
+          "scheduledCalendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com"
+        }
+      ],
+      "quarterly": [],
+      "fixedContent": []
+    },
+    {
+      "id": "artanium",
+      "emoji": "🖋️",
+      "name": "Artanium",
+      "color": "#ffffff",
+      "rubro": "Insumos gráficos",
+      "contacto": "—",
+      "ticket": "$0",
+      "pct": "0%",
+      "alert": "",
+      "services": [
+        {
+          "name": "Redes Sociales",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 100000,
+          "startDate": "2026-05"
+        },
+        {
+          "name": "Meta Ads",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 200000,
+          "startDate": "2026-05"
+        }
+      ],
+      "monthly": [
+        {
+          "id": "artanium-m1779558033785",
+          "text": "Renovar publicidad",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-23T17:40:33.785Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        }
+      ],
+      "quarterly": [],
+      "fixedContent": []
+    },
+    {
+      "id": "senko",
+      "emoji": "🏗️",
+      "name": "Senko",
+      "color": "#005da8",
+      "rubro": "Maquinaria",
+      "contacto": "—",
+      "ticket": "$0",
+      "pct": "0%",
+      "alert": "",
+      "services": [
+        {
+          "name": "Redes Sociales",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 100000,
+          "startDate": "2026-05"
+        },
+        {
+          "name": "Meta Ads",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 200000,
+          "startDate": "2026-05"
+        }
+      ],
+      "monthly": [
+        {
+          "id": "senko-m1779558045908",
+          "text": "Renovar publicidad",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-23T17:40:45.908Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        }
+      ],
+      "quarterly": [],
+      "fixedContent": []
+    },
+    {
+      "id": "eao",
+      "name": "Electro a la Orden",
+      "emoji": "⚡",
+      "color": "#fffbe8",
+      "rubro": "E-commerce mayorista · Electrónica",
+      "ticket": "$350.000",
+      "pct": "11%",
+      "contacto": "Dueño directo",
+      "alert": "Paga en cuotas — renegociar condiciones en próxima reunión",
+      "services": [
+        {
+          "name": "Meta Ads",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 150000,
+          "startDate": "2026-05"
+        },
+        {
+          "name": "Redes",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 200000,
+          "startDate": "2026-05"
+        }
+      ],
+      "monthly": [
+        {
+          "id": "eao-m1778180102580",
+          "text": "Video productos general / Financiacion",
+          "notes": "Reel orgánico\nUtilizado para pauta",
+          "owner": "EZE",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-08T17:47:39.280Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "eao-m1778262485688",
+          "text": "VIDEO HOTSALE",
+          "notes": "BICICLETAS EN HOT SALE DIJO JHONY",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-11T02:29:05.690Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "eao-m1778265555131",
+          "text": "Video solicitado de productos",
+          "notes": "Utilizando base de capcut\nESTE PUEDE SER EL MISMO PARA HOT SALE, USAR DOS VIDEOS",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-08T22:36:05.660Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        }
+      ],
+      "quarterly": [
+        {
+          "id": "eao-q1778162493621",
+          "text": "Llegar a 100 seguidores en Instagram",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-08T22:36:18.339Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        }
+      ],
+      "fixedContent": []
+    },
+    {
+      "id": "lusq",
+      "name": "Lusqtoff Tigre",
+      "emoji": "🔧",
+      "color": "#ffc400",
+      "rubro": "Ferretería / Herramientas · Franquicia Lusqtoff",
+      "ticket": "$0",
+      "pct": "4.7%",
+      "contacto": "Ivo — confía y decide rápido, poco disponible",
+      "alert": "",
+      "services": [
+        {
+          "name": "Google Ads",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 150000,
+          "startDate": "2026-05"
+        }
+      ],
+      "monthly": [
+        {
+          "id": "lusq-m1",
+          "text": "Monitorear Google Ads y preparar reporte para Ivo",
+          "owner": "EZE",
+          "status": "done",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-07T14:49:28.559Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        }
+      ],
+      "quarterly": [
+        {
+          "id": "lusq-q1",
+          "text": "Proponer Meta Ads",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-07T14:49:14.478Z",
+          "calendarEventId": null,
+          "scheduledAt": null,
+          "notes": ""
+        }
+      ],
+      "fixedContent": [
+        {
+          "id": "fix-lusq-1778165329043",
+          "type": "informe",
+          "title": "Informe Semanal Pauta",
+          "frequency": "weekly",
+          "dayWeek": "FR",
+          "dayMonth": null,
+          "time": "10:00",
+          "owner": "EZE",
+          "startDate": "2026-05-07",
+          "calendarEventId": "cj6ttg68upjh3hhl9tk5u7jkds",
+          "calendarId": "5c9b59683520797871344f40e6a08b9052533bc3c408a9809a17ace499da11b5@group.calendar.google.com",
+          "createdBy": "EZE",
+          "createdAt": "2026-05-07T14:48:49.043Z"
+        }
+      ]
+    },
+    {
+      "id": "lusqtoff-hurlingham",
+      "emoji": "🛠️",
+      "name": "Lusqtoff Hurlingham",
+      "color": "#ebac00",
+      "rubro": "Ferreteria",
+      "contacto": "Ivo Kotek",
+      "ticket": "$0",
+      "pct": "0%",
+      "alert": "",
+      "services": [
+        {
+          "name": "Diseño de tienda digital",
+          "active": true,
+          "billingType": "one-time",
+          "amount": 400000,
+          "startDate": "2026-05"
+        },
+        {
+          "name": "Carga de productos",
+          "active": true,
+          "billingType": "one-time",
+          "amount": 660000,
+          "startDate": "2026-05"
+        },
+        {
+          "name": "Google Ads",
+          "active": false,
+          "billingType": "recurring",
+          "amount": 150000,
+          "startDate": "2026-05",
+          "note": "POSIBLE"
+        }
+      ],
+      "monthly": [
+        {
+          "id": "lusqtoff-hurlingham-m1778165629825",
+          "text": "Carga de productos masiva",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-07T14:53:49.825Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        }
+      ],
+      "quarterly": [],
+      "fixedContent": []
+    },
+    {
+      "id": "psicotemas",
+      "emoji": "🏷️",
+      "name": "Psicotemas",
+      "color": "#0affa1",
+      "rubro": "PSICOLOGIA",
+      "contacto": "—",
+      "ticket": "$0",
+      "pct": "0%",
+      "alert": "",
+      "services": [],
+      "monthly": [
+        {
+          "id": "psicotemas-m1778271914924",
+          "text": "VIDEO 3 PAUTA PUBLICITARIA",
+          "notes": "",
+          "owner": "EZE",
+          "status": "done",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-08T20:25:23.084Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "psicotemas-m1778271933180",
+          "text": "Modificaciones Video 3",
+          "notes": "",
+          "owner": "GER",
+          "status": "done",
+          "changedBy": "GER",
+          "changedAt": "2026-05-12T23:03:10.975Z",
+          "calendarEventId": "cngqd0nr69k0ceijsmqdug29bg",
+          "scheduledAt": "2026-05-09T13:00:00.000Z",
+          "scheduledCalendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com"
+        }
+      ],
+      "quarterly": [],
+      "fixedContent": []
+    },
+    {
+      "id": "id-brand",
+      "emoji": "🏷️",
+      "name": "Id Brand",
+      "color": "#d225e9",
+      "rubro": "Diseño",
+      "contacto": "—",
+      "ticket": "$0",
+      "pct": "0%",
+      "alert": "",
+      "services": [
+        {
+          "name": "Desarrollo web",
+          "active": true,
+          "billingType": "one-time",
+          "amount": 390000,
+          "startDate": "2026-01"
+        }
+      ],
+      "monthly": [
+        {
+          "id": "id-brand-m1778105807231",
+          "text": "Terminar versión de escritorio",
+          "owner": "GER",
+          "status": "pending",
+          "changedBy": "GER",
+          "changedAt": "2026-05-06T22:16:47.231Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        }
+      ],
+      "quarterly": [],
+      "fixedContent": []
+    },
+    {
+      "id": "flaks",
+      "emoji": "💪🏻",
+      "name": "Flaks",
+      "color": "#59ff00",
+      "rubro": "Marketing",
+      "contacto": "—",
+      "ticket": "$0",
+      "pct": "0%",
+      "alert": "",
+      "services": [],
+      "monthly": [
+        {
+          "id": "flaks-m1779564914934",
+          "text": "Formulario para nuevas webs",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-23T19:35:14.934Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "flaks-m1779564926532",
+          "text": "Formulario para nuevas tiendas",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-23T19:35:26.532Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "flaks-m1779564937916",
+          "text": "Formulario para nuevo cliente de redes",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-23T19:35:37.916Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "flaks-m1779564985598",
+          "text": "Organización realización redes (canva - drive)",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-23T19:36:25.599Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "flaks-m1779892533306",
+          "text": "Aumentar precios",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-27T14:35:33.306Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        },
+        {
+          "id": "flaks-m1779892560022",
+          "text": "Accesos a hosting",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-27T14:36:00.022Z",
+          "calendarEventId": null,
+          "scheduledAt": null
+        }
+      ],
+      "quarterly": [],
+      "fixedContent": [
+        {
+          "id": "fix-flaks-1779558197847",
+          "type": "historia",
+          "title": "Historia x3",
+          "frequency": "weekly",
+          "dayWeek": "TU",
+          "dayMonth": null,
+          "time": "10:00",
+          "owner": "GER",
+          "startDate": "2026-05-23",
+          "calendarEventId": "7fqdudsm78armc5n8h5up3fl80",
+          "calendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com",
+          "createdBy": "EZE",
+          "createdAt": "2026-05-23T17:43:17.847Z"
+        },
+        {
+          "id": "fix-flaks-1779558217126",
+          "type": "historia",
+          "title": "Historia x3",
+          "frequency": "weekly",
+          "dayWeek": "TH",
+          "dayMonth": null,
+          "time": "10:00",
+          "owner": "GER",
+          "startDate": "2026-05-23",
+          "calendarEventId": "nb0rjfh5vn2hv25st2masfhq9c",
+          "calendarId": "420e2d9c51ad45dbf870246aa9e5be57ee41101d9ac161dab12c4593b6a76758@group.calendar.google.com",
+          "createdBy": "EZE",
+          "createdAt": "2026-05-23T17:43:37.126Z"
+        },
+        {
+          "id": "fix-flaks-1779558319440",
+          "type": "reel",
+          "title": "Reel",
+          "frequency": "weekly",
+          "dayWeek": "WE",
+          "dayMonth": null,
+          "time": "10:00",
+          "owner": "EZE",
+          "startDate": "2026-05-23",
+          "calendarEventId": "ttvtn1qlcqnvknckrmbu62cn9k",
+          "calendarId": "5c9b59683520797871344f40e6a08b9052533bc3c408a9809a17ace499da11b5@group.calendar.google.com",
+          "createdBy": "EZE",
+          "createdAt": "2026-05-23T17:45:19.440Z"
+        }
+      ]
+    },
+    {
+      "id": "tc-la-revista",
+      "emoji": "🚘",
+      "name": "TC La Revista",
+      "color": "#eeff00",
+      "rubro": "Periodismo Deportivo",
+      "contacto": "Lucas Barraza",
+      "ticket": "45000",
+      "pct": "0%",
+      "alert": "",
+      "services": [
+        {
+          "name": "Mantenimiento web",
+          "active": true,
+          "billingType": "recurring",
+          "amount": 45000,
+          "startDate": "2024-12"
+        }
+      ],
+      "monthly": [
+        {
+          "id": "tc-la-revista-m1779886790529",
+          "text": "Finalizar adaptacion de web a hosting compartido",
+          "notes": "",
+          "owner": "EZE",
+          "status": "pending",
+          "changedBy": "EZE",
+          "changedAt": "2026-05-27T13:00:00.017Z",
+          "calendarEventId": "udhfnenll7ncclum9qj9q8lmho",
+          "scheduledAt": "2026-06-01T13:00:00.000Z",
+          "scheduledCalendarId": "5c9b59683520797871344f40e6a08b9052533bc3c408a9809a17ace499da11b5@group.calendar.google.com"
+        }
+      ],
+      "quarterly": [],
+      "fixedContent": []
+    }
+  ],
+  "activityLog": [
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Accesos a hosting</strong>\" a Flaks",
+      "ts": "2026-05-27T14:36:00.022Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Aumentar precios</strong>\" a Flaks",
+      "ts": "2026-05-27T14:35:33.306Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Cambió \"<strong>Mini portatil roja c/blanco</strong>\" de En curso → <strong>Logrado</strong> en Sistema Continuo",
+      "ts": "2026-05-27T13:00:18.822Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Cambió \"<strong>Mini portatil roja c/blanco</strong>\" de Pendiente → <strong>En curso</strong> en Sistema Continuo",
+      "ts": "2026-05-27T13:00:18.524Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Cambió \"<strong>Mini portatil roja c/blanco</strong>\" de Bloqueado → <strong>Pendiente</strong> en Sistema Continuo",
+      "ts": "2026-05-27T13:00:18.312Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Cambió \"<strong>Mini portatil roja c/blanco</strong>\" de Logrado → <strong>Bloqueado</strong> en Sistema Continuo",
+      "ts": "2026-05-27T13:00:15.965Z"
+    },
+    {
+      "user": "EZE",
+      "text": "📅 Agendó \"<strong>Finalizar adaptacion de web a hosting co…</strong>\" en Calendar de <strong>Ezequiel</strong> para 1/6/2026, 10:00:00",
+      "ts": "2026-05-27T13:00:00.017Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Finalizar adaptacion de web a hosting co…</strong>\" a TC La Revista",
+      "ts": "2026-05-27T12:59:50.529Z"
+    },
+    {
+      "user": "EZE",
+      "text": "✏️ Editó cliente <strong>TC La Revista</strong>",
+      "ts": "2026-05-27T12:59:32.682Z"
+    },
+    {
+      "user": "EZE",
+      "text": "➕ Creó cliente <strong>TC La Revista</strong>",
+      "ts": "2026-05-27T12:59:13.245Z"
+    },
+    {
+      "user": "EZE",
+      "text": "✏️ Editó cliente <strong>Psicotemas</strong>",
+      "ts": "2026-05-27T12:57:09.960Z"
+    },
+    {
+      "user": "EZE",
+      "text": "✏️ Editó cliente <strong>Electro a la Orden</strong>",
+      "ts": "2026-05-27T12:56:52.063Z"
+    },
+    {
+      "user": "EZE",
+      "text": "✏️ Editó cliente <strong>Electro a la Orden</strong>",
+      "ts": "2026-05-27T12:56:32.879Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Organización realización redes (canva - …</strong>\" a Flaks",
+      "ts": "2026-05-23T19:36:25.599Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Formulario para nuevo cliente de redes</strong>\" a Flaks",
+      "ts": "2026-05-23T19:35:37.916Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Formulario para nuevas tiendas</strong>\" a Flaks",
+      "ts": "2026-05-23T19:35:26.532Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Formulario para nuevas webs</strong>\" a Flaks",
+      "ts": "2026-05-23T19:35:14.935Z"
+    },
+    {
+      "user": "EZE",
+      "text": "🔁 Creó tarea fija \"<strong>Reel</strong>\" (Semanal) en Flaks para <strong>Ezequiel</strong>",
+      "ts": "2026-05-23T17:45:19.440Z"
+    },
+    {
+      "user": "EZE",
+      "text": "🔁 Creó tarea fija \"<strong>Historia x3</strong>\" (Semanal) en Flaks para <strong>Germán</strong>",
+      "ts": "2026-05-23T17:43:37.126Z"
+    },
+    {
+      "user": "EZE",
+      "text": "🔁 Creó tarea fija \"<strong>Historia x3</strong>\" (Semanal) en Flaks para <strong>Germán</strong>",
+      "ts": "2026-05-23T17:43:17.847Z"
+    },
+    {
+      "user": "EZE",
+      "text": "➕ Creó cliente <strong>Flaks</strong>",
+      "ts": "2026-05-23T17:41:55.774Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Renovar publicidad</strong>\" a Senko",
+      "ts": "2026-05-23T17:40:45.908Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Renovar publicidad</strong>\" a Artanium",
+      "ts": "2026-05-23T17:40:33.786Z"
+    },
+    {
+      "user": "GER",
+      "text": "📅 Agendó \"<strong>Video Plotter 1802</strong>\" en Calendar de <strong>Germán</strong> para 27/5/2026, 10:00:00",
+      "ts": "2026-05-19T21:14:55.329Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>Video 1 Cintas y porta cintas</strong>\" de En curso → <strong>Logrado</strong> en Sistema Continuo",
+      "ts": "2026-05-18T20:45:35.545Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>Video 1 Cintas y porta cintas</strong>\" de Pendiente → <strong>En curso</strong> en Sistema Continuo",
+      "ts": "2026-05-18T20:45:35.351Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>Perfilado</strong>\" de En curso → <strong>Logrado</strong> en SC Gran Formato",
+      "ts": "2026-05-18T20:16:07.543Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>Perfilado</strong>\" de Pendiente → <strong>En curso</strong> en SC Gran Formato",
+      "ts": "2026-05-18T20:16:06.996Z"
+    },
+    {
+      "user": "GER",
+      "text": "✏️ Editó objetivo \"<strong>Video 1</strong>\" → \"<strong>Video 1 Cintas y porta cintas</strong>\" en Sistema Continuo",
+      "ts": "2026-05-18T18:06:06.885Z"
+    },
+    {
+      "user": "GER",
+      "text": "Agregó nuevo objetivo \"<strong>Video Plotter 1802</strong>\" a SC Gran Formato",
+      "ts": "2026-05-18T18:05:47.047Z"
+    },
+    {
+      "user": "GER",
+      "text": "Agregó nuevo objetivo \"<strong>Perfilado</strong>\" a SC Gran Formato",
+      "ts": "2026-05-18T18:05:24.366Z"
+    },
+    {
+      "user": "GER",
+      "text": "Eliminó el objetivo \"<strong>Video perfilado GRAN FORMATO</strong>\" de Sistema Continuo",
+      "ts": "2026-05-18T18:05:09.644Z"
+    },
+    {
+      "user": "GER",
+      "text": "Agregó nuevo objetivo \"<strong>Video 1</strong>\" a Sistema Continuo",
+      "ts": "2026-05-18T18:04:11.910Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>Modificaciones Video 3</strong>\" de En curso → <strong>Logrado</strong> en Psicotemas",
+      "ts": "2026-05-12T23:03:10.975Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>Modificaciones Video 3</strong>\" de Pendiente → <strong>En curso</strong> en Psicotemas",
+      "ts": "2026-05-12T23:03:10.165Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: CINTAS BLUE Y CINTAS RED Automá…</strong>\" de En curso → <strong>Logrado</strong> en SC Gran Formato",
+      "ts": "2026-05-11T17:36:32.558Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: CINTAS BLUE Y CINTAS RED Automá…</strong>\" de Pendiente → <strong>En curso</strong> en SC Gran Formato",
+      "ts": "2026-05-11T17:36:30.999Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>VIDEO HOTSALE</strong>\" de En curso → <strong>Logrado</strong> en Electro a la Orden",
+      "ts": "2026-05-11T02:29:05.690Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>VIDEO HOTSALE</strong>\" de Pendiente → <strong>En curso</strong> en Electro a la Orden",
+      "ts": "2026-05-11T02:29:04.092Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>VIDEOS A GRUPO DE ESTADOS WPP</strong>\" de En curso → <strong>Logrado</strong> en Sistema Continuo",
+      "ts": "2026-05-11T00:08:31.746Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>VIDEOS A GRUPO DE ESTADOS WPP</strong>\" de Pendiente → <strong>En curso</strong> en Sistema Continuo",
+      "ts": "2026-05-11T00:08:26.825Z"
+    },
+    {
+      "user": "GER",
+      "text": "Agregó nuevo objetivo \"<strong>VIDEOS A GRUPO DE ESTADOS WPP</strong>\" a Sistema Continuo",
+      "ts": "2026-05-10T22:37:04.437Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>Listado ofertas Miqueas</strong>\" de En curso → <strong>Logrado</strong> en Sistema Continuo",
+      "ts": "2026-05-09T21:53:18.979Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>Listado ofertas Miqueas</strong>\" de Pendiente → <strong>En curso</strong> en Sistema Continuo",
+      "ts": "2026-05-09T21:53:03.447Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: PLOTTER DTF A3 20%</strong>\" de En curso → <strong>Logrado</strong> en SC Gran Formato",
+      "ts": "2026-05-09T03:56:49.427Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: 60X80 BLUE 20%</strong>\" de En curso → <strong>Logrado</strong> en SC Gran Formato",
+      "ts": "2026-05-09T03:31:56.320Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: 60X80 BLUE 20%</strong>\" de Pendiente → <strong>En curso</strong> en SC Gran Formato",
+      "ts": "2026-05-09T03:31:55.983Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>ORGÁNICO: Estampadora de gorras mini</strong>\" de En curso → <strong>Logrado</strong> en Sistema Continuo",
+      "ts": "2026-05-09T02:47:28.767Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>ORGÁNICO: Estampadora de gorras mini</strong>\" de Pendiente → <strong>En curso</strong> en Sistema Continuo",
+      "ts": "2026-05-09T02:47:26.868Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: Mordaza para canillera + canill…</strong>\" de En curso → <strong>Logrado</strong> en Sistema Continuo",
+      "ts": "2026-05-09T02:47:05.569Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE 8 en 1 RED 20%</strong>\" de En curso → <strong>Logrado</strong> en Sistema Continuo",
+      "ts": "2026-05-09T02:47:03.095Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE 8 en 1 RED 20%</strong>\" de Pendiente → <strong>En curso</strong> en Sistema Continuo",
+      "ts": "2026-05-09T02:47:02.374Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE 8 en 1 RED 20%</strong>\" de Bloqueado → <strong>Pendiente</strong> en Sistema Continuo",
+      "ts": "2026-05-09T02:47:01.595Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: Portacinta + cintas</strong>\" de En curso → <strong>Logrado</strong> en Sistema Continuo",
+      "ts": "2026-05-08T23:53:39.591Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: Mordaza para canillera + canill…</strong>\" de Pendiente → <strong>En curso</strong> en Sistema Continuo",
+      "ts": "2026-05-08T23:15:09.731Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: Portacinta + cintas</strong>\" de Pendiente → <strong>En curso</strong> en Sistema Continuo",
+      "ts": "2026-05-08T23:15:08.314Z"
+    },
+    {
+      "user": "GER",
+      "text": "Agregó nuevo objetivo \"<strong>Listado ofertas Miqueas</strong>\" a Sistema Continuo",
+      "ts": "2026-05-08T23:11:19.265Z"
+    },
+    {
+      "user": "EZE",
+      "text": "✏️ Editó objetivo \"<strong>Llegar a 70 seguidores en Instagram</strong>\" → \"<strong>Llegar a 100 seguidores en Instagram</strong>\" en Electro a la Orden",
+      "ts": "2026-05-08T22:36:18.339Z"
+    },
+    {
+      "user": "EZE",
+      "text": "✏️ Editó objetivo \"<strong>Video solicitado de productos</strong>\" en Electro a la Orden",
+      "ts": "2026-05-08T22:36:05.660Z"
+    },
+    {
+      "user": "EZE",
+      "text": "✏️ Editó objetivo \"<strong>VIDEO HOTSALE</strong>\" en Electro a la Orden",
+      "ts": "2026-05-08T22:35:42.460Z"
+    },
+    {
+      "user": "EZE",
+      "text": "📅 Agendó \"<strong>ORGÁNICO: Estampadora de gorras mini</strong>\" en Calendar de <strong>Ezequiel</strong> para 9/5/2026, 10:00:00",
+      "ts": "2026-05-08T22:00:37.891Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Cambió \"<strong>HOTSALE: PLOTTER DTF A3 20%</strong>\" de Pendiente → <strong>En curso</strong> en SC Gran Formato",
+      "ts": "2026-05-08T21:58:34.615Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Cambió \"<strong>HOTSALE: 1802 60C 25%</strong>\" de En curso → <strong>Logrado</strong> en SC Gran Formato",
+      "ts": "2026-05-08T21:58:29.848Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Cambió \"<strong>HOTSALE: 1802 60C 25%</strong>\" de Pendiente → <strong>En curso</strong> en SC Gran Formato",
+      "ts": "2026-05-08T21:58:26.490Z"
+    },
+    {
+      "user": "EZE",
+      "text": "📅 Agendó \"<strong>Modificaciones Video 3</strong>\" en Calendar de <strong>Germán</strong> para 9/5/2026, 10:00:00",
+      "ts": "2026-05-08T20:25:51.763Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Modificaciones Video 3</strong>\" a Psicotemas",
+      "ts": "2026-05-08T20:25:33.180Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Cambió \"<strong>VIDEO 3 PAUTA PUBLICITARIA</strong>\" de En curso → <strong>Logrado</strong> en Psicotemas",
+      "ts": "2026-05-08T20:25:23.084Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Cambió \"<strong>VIDEO 3 PAUTA PUBLICITARIA</strong>\" de Pendiente → <strong>En curso</strong> en Psicotemas",
+      "ts": "2026-05-08T20:25:18.012Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>VIDEO 3 PAUTA PUBLICITARIA</strong>\" a Psicotemas",
+      "ts": "2026-05-08T20:25:14.924Z"
+    },
+    {
+      "user": "EZE",
+      "text": "📅 Agendó \"<strong>HOTSALE: 1802 60C 25%</strong>\" en Calendar de <strong>Ezequiel</strong> para 9/5/2026, 10:00:00",
+      "ts": "2026-05-08T20:23:22.252Z"
+    },
+    {
+      "user": "EZE",
+      "text": "📅 Agendó \"<strong>HOTSALE: PLOTTER DTF A3 20%</strong>\" en Calendar de <strong>Ezequiel</strong> para 9/5/2026, 10:00:00",
+      "ts": "2026-05-08T20:23:10.492Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: Tazas Recta MP60B 20%</strong>\" de En curso → <strong>Logrado</strong> en Sistema Continuo",
+      "ts": "2026-05-08T19:48:50.667Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: Tazas Recta MP60B 20%</strong>\" de Pendiente → <strong>En curso</strong> en Sistema Continuo",
+      "ts": "2026-05-08T19:48:50.255Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: 4 EQUIPOS BLUE 15%</strong>\" de En curso → <strong>Logrado</strong> en Sistema Continuo",
+      "ts": "2026-05-08T19:48:33.176Z"
+    },
+    {
+      "user": "EZE",
+      "text": "Agregó nuevo objetivo \"<strong>Video solicitado de productos</strong>\" a Electro a la Orden",
+      "ts": "2026-05-08T18:39:15.131Z"
+    },
+    {
+      "user": "GER",
+      "text": "Agregó nuevo objetivo \"<strong>VIDEO HOTSALE</strong>\" a Electro a la Orden",
+      "ts": "2026-05-08T17:48:05.688Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>Video productos general / Financiacion</strong>\" de En curso → <strong>Logrado</strong> en Electro a la Orden",
+      "ts": "2026-05-08T17:47:39.280Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>Video productos general / Financiacion</strong>\" de Pendiente → <strong>En curso</strong> en Electro a la Orden",
+      "ts": "2026-05-08T17:47:37.876Z"
+    },
+    {
+      "user": "GER",
+      "text": "Agregó nuevo objetivo \"<strong>Video perfilado GRAN FORMATO</strong>\" a Sistema Continuo",
+      "ts": "2026-05-08T17:35:13.704Z"
+    },
+    {
+      "user": "GER",
+      "text": "Cambió \"<strong>HOTSALE: 4 EQUIPOS BLUE 15%</strong>\" de Pendiente → <strong>En curso</strong> en Sistema Continuo",
+      "ts": "2026-05-08T15:49:19.264Z"
+    }
+  ]
+}
