@@ -36,21 +36,7 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL('/login', request.url))
   }
 
-  if (user && !isPublic && path !== '/pending-approval') {
-    const allowedEmails = (process.env.ALLOWED_EMAILS || '')
-      .split(',')
-      .map(e => e.trim())
-      .filter(Boolean)
-
-    if (allowedEmails.length && !allowedEmails.includes(user.email || '')) {
-      if (path.startsWith('/api/')) {
-        return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
-      }
-      return NextResponse.redirect(new URL('/pending-approval', request.url))
-    }
-  }
-
-  // Redirect authenticated+allowed users away from /login
+  // Redirect authenticated users away from /login
   if (user && path === '/login') {
     return NextResponse.redirect(new URL('/tablero', request.url))
   }
