@@ -1,4 +1,4 @@
-import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { NextResponse } from 'next/server'
 import type { Client, Service, Objective, FixedContent, ActivityLogEntry, TeamMember, ClientWithAll } from '@/lib/types'
 
@@ -10,20 +10,14 @@ function sortByScheduledAt(a: Objective, b: Objective) {
 
 export async function GET() {
   try {
-    const supabase = await createClient()
-    const { data: { user }, error: authErr } = await supabase.auth.getUser()
-    if (!user || authErr) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+    const supabase = createAdminClient()
 
     const [clientsRes, activityRes, teamRes] = await Promise.all([
       supabase
         .from('clients')
         .select('*, services(*), objectives(*), fixed_content(*)')
         .order('sort_order', { ascending: true }),
-      supabase
-        .from('activity_log')
-        .select('*')
-        .order('ts', { ascending: false })
-        .limit(80),
+      supabase.from('activity_log').select('*').order('ts', { ascending: false }).limit(80),
       supabase.from('team_members').select('*'),
     ])
 

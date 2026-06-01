@@ -1,36 +1,22 @@
-import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { NextResponse } from 'next/server'
 import { deleteCalendarEvent } from '@/lib/google-calendar'
-import type { OwnerRole } from '@/lib/types'
 
 const STATUS_CYCLE = ['pending', 'progress', 'done', 'blocked', 'pending']
 const STATUS_LABELS: Record<string, string> = {
   pending: 'Pendiente', progress: 'En curso', done: 'Logrado', blocked: 'Bloqueado',
 }
 
-async function getUserRole(supabase: Awaited<ReturnType<typeof createClient>>, userId: string) {
-  const { data } = await supabase.from('team_members').select('role_code').eq('user_id', userId).single()
-  return (data?.role_code || null) as OwnerRole | null
-}
-
 export async function PATCH(request: Request, { params }: { params: Promise<{ id: string }> }) {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-
+  const supabase = createAdminClient()
   const { id } = await params
   const body = await request.json()
-  const role = await getUserRole(supabase, user.id)
   const now = new Date().toISOString()
 
-  // Fetch current objective
   const { data: current } = await supabase.from('objectives').select('*, clients(name)').eq('id', id).single()
   if (!current) return NextResponse.json({ error: 'Not found' }, { status: 404 })
 
-  const updates: Record<string, unknown> = {
-    changed_by: user.id, changed_by_role: role, changed_at: now,
-  }
-
+  const updates: Record<string, unknown> = { changed_by_role: 'EZE', changed_at: now }
   let logText = ''
 
   if (body.action === 'cycle_status') {
@@ -56,46 +42,25 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
 
   const { error } = await supabase.from('objectives').update(updates).eq('id', id)
   if (error) return NextResponse.json({ error: error.message }, { status: 500 })
-
-  if (logText) {
-    await supabase.from('activity_log').insert({ user_id: user.id, role_code: role, text: logText })
-  }
-
+  if (logText) await supabase.from('activity_log').insert({ role_code: 'EZE', text: logText })
   return NextResponse.json({ success: true })
 }
 
 export async function DELETE(request: Request, { params }: { params: Promise<{ id: string }> }) {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-
+  const supabase = createAdminClient()
   const { id } = await params
-  const role = await getUserRole(supabase, user.id)
 
   const { data: obj } = await supabase.from('objectives').select('*, clients(name)').eq('id', id).single()
   if (!obj) return NextResponse.json({ error: 'Not found' }, { status: 404 })
 
-  // Best-effort calendar cleanup
-  if (obj.calendar_event_id) {
-    const calId = obj.scheduled_calendar_id
-    if (calId) {
-      const { data: { session } } = await supabase.auth.getSession()
-      if (session?.provider_token) {
-        try {
-          await deleteCalendarEvent(calId, obj.calendar_event_id, session.provider_token, session.provider_refresh_token ?? undefined)
-        } catch (e) { console.warn('Could not delete calendar event:', e) }
-      }
-    }
-  }
-
+  // Best-effort calendar cleanup (requires Google token - skipped without auth)
   const { error } = await supabase.from('objectives').delete().eq('id', id)
   if (error) return NextResponse.json({ error: error.message }, { status: 500 })
 
   const clientName = (obj as Record<string, Record<string, string>>).clients?.name || obj.client_id
   await supabase.from('activity_log').insert({
-    user_id: user.id, role_code: role,
+    role_code: 'EZE',
     text: `Eliminó el objetivo "<strong>${obj.text.substring(0, 40)}</strong>" de ${clientName}`,
   })
-
   return NextResponse.json({ success: true })
 }

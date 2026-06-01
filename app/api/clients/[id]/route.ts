@@ -1,20 +1,10 @@
-import { createClient } from '@/lib/supabase/server'
+import { createAdminClient } from '@/lib/supabase/admin'
 import { NextResponse } from 'next/server'
 
-async function getUserRole(supabase: Awaited<ReturnType<typeof createClient>>, userId: string) {
-  const { data } = await supabase.from('team_members').select('role_code').eq('user_id', userId).single()
-  return data?.role_code as string | null
-}
-
 export async function PATCH(request: Request, { params }: { params: Promise<{ id: string }> }) {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-
+  const supabase = createAdminClient()
   const { id } = await params
   const body = await request.json()
-  const role = await getUserRole(supabase, user.id)
-
   const { name, emoji, color, rubro, contacto, ticket, pct, alert, services } = body
 
   const updatePayload: Record<string, unknown> = {}
@@ -30,47 +20,29 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
   const { error } = await supabase.from('clients').update(updatePayload).eq('id', id)
   if (error) return NextResponse.json({ error: error.message }, { status: 500 })
 
-  // Replace services if provided
   if (services !== undefined) {
     await supabase.from('services').delete().eq('client_id', id)
     if (services.length) {
-      const svcRows = services.map((s: Record<string, unknown>, i: number) => ({
+      const svcRows = (services as Record<string, unknown>[]).map((s, i) => ({
         client_id: id, name: s.name, active: s.active !== false,
-        note: s.note || null, amount: s.amount != null ? Number(s.amount) : null,
-        billing_type: s.billing_type || 'recurring', start_date: s.start_date || null,
-        sort_order: i,
+        note: s.note || null,
+        amount: s.amount != null && s.amount !== '' ? Number(s.amount) : null,
+        billing_type: s.billing_type || 'recurring', start_date: s.start_date || null, sort_order: i,
       }))
       await supabase.from('services').insert(svcRows)
     }
   }
 
-  await supabase.from('activity_log').insert({
-    user_id: user.id, role_code: role,
-    text: `✏️ Editó cliente <strong>${name || id}</strong>`,
-  })
-
+  await supabase.from('activity_log').insert({ role_code: 'EZE', text: `✏️ Editó cliente <strong>${name || id}</strong>` })
   return NextResponse.json({ success: true })
 }
 
 export async function DELETE(request: Request, { params }: { params: Promise<{ id: string }> }) {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-
+  const supabase = createAdminClient()
   const { id } = await params
-  const role = await getUserRole(supabase, user.id)
-
   const { data: client } = await supabase.from('clients').select('name').eq('id', id).single()
-  const name = client?.name || id
-
-  // Cascade: services, objectives, fixed_content are deleted via FK CASCADE
   const { error } = await supabase.from('clients').delete().eq('id', id)
   if (error) return NextResponse.json({ error: error.message }, { status: 500 })
-
-  await supabase.from('activity_log').insert({
-    user_id: user.id, role_code: role,
-    text: `🗑 Eliminó cliente <strong>${name}</strong>`,
-  })
-
+  await supabase.from('activity_log').insert({ role_code: 'EZE', text: `🗑 Eliminó cliente <strong>${client?.name || id}</strong>` })
   return NextResponse.json({ success: true })
 }
